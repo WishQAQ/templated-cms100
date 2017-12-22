@@ -1,0 +1,1 @@
+<a><img src="/skin/images/[field:id/].jpg" title="" alt="" /></a>

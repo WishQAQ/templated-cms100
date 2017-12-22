@@ -1,0 +1,2 @@
+INSERT INTO `dede_addon1117` VALUES('13','12','','','127.0.0.1','{dede:img text=\'\' width=\'1000\' height=\'235\'} /uploads/150612/1-150612104J5625.jpg {/dede:img}');
+INSERT INTO `dede_addon1117` VALUES('14','12','','','127.0.0.1','{dede:img text=\'\' width=\'1000\' height=\'235\'} /uploads/150612/1-150612105SWR.jpg {/dede:img}');

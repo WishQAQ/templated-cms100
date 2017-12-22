@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/skin/css/resetcommon.css" rel="stylesheet" type="text/css" />
+<link href="/skin/css/Style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/js/NSW_JCIA.js"></script>
+</head>
+<body>
+<!--Header:Start--> 
+<!--头部开始--> 
+{dede:include filename="head.htm"/} 
+<!--头部 结束-->
+<div class="g_nav">
+  <div class="nav menu">
+    <ul>
+      <li><a href="/" title="{dede:global.cfg_webname/}" >公司首页</a></li>
+      {dede:type typeid='2'}
+      <li class="cur"><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='4'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='5'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='1'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='15'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='18'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='27'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='16'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='11'}
+      <li class="lastli"><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+    </ul>
+  </div>
+</div>
+<!--banner 开始--> 
+
+<!--banner 结束--> 
+<!-- 搜索 -->
+
+<script type="text/javascript">
+    initCommonHeader();
+    var MARK = "product";
+</script> 
+
+<!--Header:End--> 
+<!--Content:Start-->
+<div class="topadcs">{dede:type} <a><img src="/skin/images/[field:id/].jpg" title="" alt="" /></a> {/dede:type}</div>
+<div class="content">
+  <div class="rightl">
+    <div class="plc"> <span>{dede:field name='position'/}</span> </div>
+    <div class="pro_main">
+      <ul class="fc_pro">
+        {dede:list pagesize='8'}
+        <li> <img src="/skin/images/jia.png" alt="[field:title/]" title="[field:title/]"
+                            class="jia" /> <img src="[field:picname/]" alt="[field:title/]" title="[field:title/]" /> <a href="[field:arcurl/]" target="_blank" title="[field:title/]">
+          <h3> [field:title/]</h3>
+          <em class="btn2"> <img src="/skin/images/btn_xq.png" alt="查看详情" title="查看详情" /></em> </a></li>
+        {/dede:list}
+      </ul>
+    </div>
+    <div class="clear"> </div>
+    <div class="RandomNews">
+      <h4 class="diysr"> 推荐资讯</h4>
+      <div class="news_random">
+        <ul>
+          {dede:arclist row=12 titlelen=60  typeid='27'}
+          <li><span class="fr"> [field:pubdate function="MyDate('Y-m-d',@me)"/]</span><a target="_blank"
+                                        href="[field:arcurl/]" title="[field:title/]"> [field:title/]</a></li>
+          {/dede:arclist}
+          <div class="clear"> </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="leftr">
+    <div class="leib">
+      <div class="tit"> 产品中心</div>
+      <div class="nr"> {dede:channel type='son' currentstyle="
+        <h4 sid='0001,0004' class='cur'><a href='~typelink~' class='thisclass'>~typename~</a></h4>
+        "}
+        <h4><a href="[field:typeurl/]" title="[field:typename/]">[field:typename/]</a></h4>
+        {/dede:channel} </div>
+    </div>
+    <script type="text/javascript">
+    productSelectCurrentPosition("");
+</script>
+    <div class="leib mt10" id="lefttuijian">
+      <div class="tit"> 推荐产品</div>
+      <div class="nr"> {dede:arclist row=3 titlelen=32  typeid='1'}
+        <dl class="pd_t05_con_dl">
+          <dt><a href="[field:arcurl/]" target="_blank"
+                        title="[field:title/]"> <img src="[field:picname/]" alt="[field:title/]"
+                            title="[field:title/]" /></a></dt>
+          <dd> <a href="[field:arcurl/]" title="[field:title/]"
+                            target="_blank">[field:title/]</a></dd>
+        </dl>
+        {/dede:arclist}
+        <div class="clear"> </div>
+      </div>
+    </div>
+    <div class="leftlx">
+      <h5>联系我们</h5>
+      <div class="phone"> <img src="/skin/images/phone.png" alt="咨询热线" title="咨询热线" /> <span>咨询热线：</span>
+        <p>{dede:global.cfg_dh/}</p>
+      </div>
+      <p><span>Q Q：</span>{dede:global.cfg_qq/}</p>
+      <p><span>邮箱：</span>{dede:global.cfg_yx/}</p>
+      <p><span>地址：</span>{dede:global.cfg_dz/}</p>
+    </div>
+  </div>
+  <div class="clear"> </div>
+</div>
+<!--Content:End--> 
+<!--Footer:Start--> 
+
+<!--底部--> 
+{dede:include filename="footer.htm"/} 
+<!--[if IE 6]>
+<script src="/skin/js/DD_belatedPNG.js"></script>
+<![endif]--> 
+<!-- 返回顶部 --> 
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+<li _src="url([field:picname/])" style="background: #ccc center 0 no-repeat;"> </li>

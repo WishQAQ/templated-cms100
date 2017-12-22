@@ -1,0 +1,10 @@
+INSERT INTO `dede_search_keywords` VALUES('1','撒发生地','撒发生地 发生地','2','0','1439634673','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','商业展示柜行业发展势头','商业展示柜行业发展势头 势头 商业 展示柜 行业发展','1','1','1439634430','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','手机展柜','手机展柜 展柜 手机','3','4','1439634887','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','鞋业展柜','鞋业展柜 展柜 鞋业','4','2','1439817186','0','0');
+INSERT INTO `dede_search_keywords` VALUES('5','服装展柜','服装展柜 展柜 服装','4','0','1439821952','0','0');
+INSERT INTO `dede_search_keywords` VALUES('6','珠宝展柜','珠宝展柜 展柜 珠宝','4','1','1439817176','0','0');
+INSERT INTO `dede_search_keywords` VALUES('7','化妆品展柜','化妆品展柜 化妆品 展柜','3','0','1439634860','0','0');
+INSERT INTO `dede_search_keywords` VALUES('8','请输入关键词......','请输入关键词...... ...... 关键词 输入','1','0','1439698372','0','0');
+INSERT INTO `dede_search_keywords` VALUES('9','展柜','展柜','21','28','1439779355','0','0');
+INSERT INTO `dede_search_keywords` VALUES('10','请输入关键词搜索','请输入关键词搜索 关键词 搜索 输入','1','0','1439817309','0','0');

@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("field","",254,273);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",274,300);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",341,370);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",410,468);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",752,787);
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("global","",898,924);
+$z[5][4]['name']="cfg_webname";
+$z[6]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",956,1091);
+$z[6][4]['typeid']="2";
+$z[7]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1099,1234);
+$z[7][4]['typeid']="4";
+$z[8]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1242,1377);
+$z[8][4]['typeid']="5";
+$z[9]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1385,1520);
+$z[9][4]['typeid']="1";
+$z[10]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1528,1664);
+$z[10][4]['typeid']="15";
+$z[11]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1672,1808);
+$z[11][4]['typeid']="18";
+$z[12]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1816,1952);
+$z[12][4]['typeid']="27";
+$z[13]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1960,2096);
+$z[13][4]['typeid']="16";
+$z[14]=Array("type","\r\n      <li class=\"lastli cur\"><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",2104,2259);
+$z[14][4]['typeid']="11";
+$z[15]=Array("field","",2683,2712);
+$z[15][4]['name']="position";
+$z[16]=Array("field","",6066,6087);
+$z[16][4]['name']="content";
+$z[17]=Array("include","",6255,6292);
+$z[17][4]['filename']="footer.htm";
+
+?>

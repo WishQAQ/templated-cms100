@@ -1,0 +1,2 @@
+<a href="[field:typelink/]" target="_blank" title="[field:typename/]"> MORE+</a></span><a href="[field:typelink/]" target="_blank" title="[field:typename/]">[field:typename/]<em>/Customer
+      testimonials</em></a>

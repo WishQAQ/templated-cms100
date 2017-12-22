@@ -1,0 +1,1 @@
+<p><span>[field:global name=autoindex runphp="yes"]@me=@me+0;[/field:global]</span><a href='[field:arcurl/]'  target="_blank" title='[field:title/]'>[field:title/]</a></p>

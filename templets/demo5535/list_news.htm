@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/skin/css/resetcommon.css" rel="stylesheet" type="text/css" />
+<link href="/skin/css/Style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/js/NSW_JCIA.js"></script>
+</head>
+<body>
+<!--Header:Start--> 
+<!--头部开始--> 
+{dede:include filename="head.htm"/} 
+<!--头部 结束-->
+<div class="g_nav">
+  <div class="nav menu">
+    <ul>
+      <li><a href="/" title="{dede:global.cfg_webname/}" >公司首页</a></li>
+      {dede:type typeid='2'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='4'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='5'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='1'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='15'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='18'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='27'}
+      <li class="cur"><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='16'}
+      <li><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+      {dede:type typeid='11'}
+      <li class="lastli"><a href="[field:typelink/]" title="[field:typename/]" >[field:typename/]</a></li>
+      {/dede:type}
+    </ul>
+  </div>
+</div>
+<!--banner 开始--> 
+
+<!--banner 结束--> 
+<!-- 搜索 -->
+
+<script type="text/javascript">
+    initCommonHeader();
+    var MARK = "news";
+</script> 
+
+<!--Header:End--> 
+<!--Content:Start-->
+<div class="topadcs"> <a><img src="/skin/images/20150427184830_94025.jpg" title="" alt="" /></a> </div>
+<div class="content">
+  <div class="left">
+    <div class="leib2">
+      <div class="tit"> 资讯中心 </div>
+      <div class="nr"> {dede:channel type='son' currentstyle="
+        <h4 sid='0001,0004' class='cur'><a href='~typelink~' class='thisclass'>~typename~</a></h4>
+        "}
+        <h4><a href="[field:typeurl/]" title="[field:typename/]">[field:typename/]</a></h4>
+        {/dede:channel}
+        </ul>
+      </div>
+    </div>
+    <div class="leib mt10" id="lefttuijian">
+      <div class="tit"> 推荐产品</div>
+      <div class="nr"> {dede:arclist row=3 titlelen=32  typeid='1'}
+        <dl class="pd_t05_con_dl">
+          <dt><a href="[field:arcurl/]" target="_blank"
+                        title="[field:title/]"> <img src="[field:picname/]" alt="[field:title/]"
+                            title="[field:title/]" /></a></dt>
+          <dd> <a href="[field:arcurl/]" title="[field:title/]"
+                            target="_blank"> [field:title/]</a></dd>
+        </dl>
+        {/dede:arclist}
+        <div class="clear"> </div>
+      </div>
+    </div>
+    <div class="leftlx">
+      <h5>联系我们</h5>
+      <div class="phone"> <img src="/skin/images/phone.png" alt="咨询热线" title="咨询热线" /> <span>咨询热线：</span>
+        <p>{dede:global.cfg_dh/}</p>
+      </div>
+      <p><span>Q Q：</span>{dede:global.cfg_qq/}</p>
+      <p><span>邮箱：</span>{dede:global.cfg_yx/}</p>
+      <p><span>地址：</span>{dede:global.cfg_dz/}</p>
+    </div>
+  </div>
+  <script type="text/javascript">
+            var SID = "0001,0025,0030";
+            newsSelectCurrentPosition();
+        </script>
+  <div class="right">
+    <div class="plc"> <span>{dede:field name='position'/}</span> </div>
+    <div class="right_main">
+      <div class="news_con"> {dede:list pagesize='10'}
+        <dl class="news_dl">
+          <dt><span class="dt_2"> [field:pubdate function="MyDate('Y',@me)"/]</span><span class="dt_3">[field:pubdate function="MyDate('m-d',@me)"/]</span></dt>
+          <dd> <span><a class="dt_1" href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></span>
+            <p> [field:description function='cn_substr(@me,300)'/]... <a href="[field:arcurl/]" target="_blank" title="详细">[详细]</a></p>
+          </dd>
+          <div class="clear"> </div>
+        </dl>
+        {/dede:list} 
+        <script type="text/javascript">
+                        $(function () {
+                            $(".newslist_jz dl").hover(function () {
+                                $(this).addClass("bor")
+                            }, function () {
+                                $(this).removeClass("bor")
+                            });
+
+
+                        });
+                    </script>
+        <div class="newslist_jz"> </div>
+        <div class="clear"> </div>
+        <div id="pagerMain" class="apage">{dede:pagelist listitem="index,end,pre,next,pageno"/}</div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+            if ($("div.right").height() > 900) {
+                $("#righttuijian").hide().next("div.rightbot").hide();
+            } else {
+                $("#lefttuijian").hide();
+            }
+            //显示方式
+            var showtype = "2";
+            //当前栏目的ID
+            var columnid = "30";
+            switch (showtype) {
+                case "3":
+                    if (columnid == 0) {
+                        $("#newslistbox dl").attr("class", "").addClass("dl_hon");
+                    } else if (columnid == 0) {
+                        $("#newslistbox dl").attr("class", "").addClass("dl_pho");
+                    } else {
+                        reDrawImage(0);
+                    }
+                    break;
+                default:
+                    if (columnid == 40) {
+                        $("#newslistbox dl").attr("class", "").addClass("dl_pho");
+                    } else {
+                        reDrawImage(1);
+                    }
+                    break;
+            }
+            function reDrawImage(isdetails) {
+                if (isdetails) {
+                    $("#newslistbox dl img").each(function () {
+                        $(this).get(0).onload = function () { DrawImage(this, 200, 120, 1); }
+                    });
+                } else {
+                    $("#newslistbox dl img").each(function () {
+                        $(this).get(0).onload = function () { DrawImage(this, 200, 144, 1); }
+                    });
+                }
+            }
+        </script>
+  <div class="clear"> </div>
+</div>
+<!--Content:End--> 
+<!--Footer:Start--> 
+
+<!--底部--> 
+{dede:include filename="footer.htm"/} 
+<!--[if IE 6]>
+<script src="/JS/DD_belatedPNG.js"></script>
+<![endif]--> 
+<!-- 返回顶部 --> 
+
+</body>
+</html>
+<script type="text/javascript">
+    $(".news_con").find("dl").hover(function () { $(this).addClass("news_dl_hover"); }, function () { $(this).removeClass("news_dl_hover"); })
+</script>
+<script type="text/javascript">
+    //    $(".news_con").find("dl").hover(function () { $(this).addClass("news_dl_hover"); }, function () { $(this).removeClass("news_dl_hover"); })
+    if (SID == "0001,0026,0031") {
+        $(".news_con").find("dl").attr("class", "dl_hz");
+    }
+
+    //        $(".news_con").css({ width: "500px", height: "500px" });
+    //        $(".news_con").find("dl").removeClass("dl_6");
+    //        $(".news_con").find("dl").addClass("dl_10");
+</script>

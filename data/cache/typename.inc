@@ -1,0 +1,35 @@
+<?php
+$typeArr[1] = '产品中心';
+$typeArr[2] = '手机展柜';
+$typeArr[3] = '数码展柜';
+$typeArr[4] = '鞋业展柜';
+$typeArr[5] = '服装展柜';
+$typeArr[6] = '家电展柜';
+$typeArr[7] = '钟表展柜';
+$typeArr[8] = '珠宝展柜';
+$typeArr[9] = '烟酒展柜';
+$typeArr[10] = '化妆品展柜';
+$typeArr[11] = '关于我们';
+$typeArr[12] = '公司简介';
+$typeArr[13] = '公司相册';
+$typeArr[14] = '公司设备';
+$typeArr[15] = '公司服务';
+$typeArr[16] = '联系我们';
+$typeArr[17] = '在线留言';
+$typeArr[18] = '案例中心';
+$typeArr[19] = '电子数码类';
+$typeArr[20] = '化妆品类';
+$typeArr[21] = '家用电器类';
+$typeArr[22] = '烟酒类';
+$typeArr[23] = '鞋业类';
+$typeArr[24] = '服装类';
+$typeArr[25] = '钟表类';
+$typeArr[26] = '珠宝类';
+$typeArr[27] = '新闻资讯';
+$typeArr[28] = '公司资讯';
+$typeArr[29] = '行业新闻';
+$typeArr[30] = '幻灯';
+$typeArr[31] = '合作伙伴';
+$typeArr[32] = '客户中心';
+$typeArr[33] = '常见问题解答';
+?>

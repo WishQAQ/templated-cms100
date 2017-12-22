@@ -1,0 +1,2 @@
+ <a class="jqzoom" href="[field:imgsrc/]" title="[field:text/]"> <img src="[field:imgsrc/]" alt="[field:text/]" title="[field:text/]" class="js_goods_image_url"
+                                                style="height: 293px; width: 390px;"></a> 

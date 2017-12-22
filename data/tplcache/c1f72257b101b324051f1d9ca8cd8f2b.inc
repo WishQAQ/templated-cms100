@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" title="[field:typename/]" class="lasta">[field:typename/]</a>

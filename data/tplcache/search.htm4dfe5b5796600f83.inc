@@ -1,0 +1,47 @@
+<?php
+$z[0]=Array("global","",204,230);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("field","",271,300);
+$z[1][4]['name']="keywords";
+$z[2]=Array("field","",340,398);
+$z[2][4]['name']="description";
+$z[2][4]['function']="html2text(@me)";
+$z[3]=Array("include","",680,715);
+$z[3][4]['filename']="head.htm";
+$z[4]=Array("global","",838,864);
+$z[4][4]['name']="cfg_webname";
+$z[5]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",896,1031);
+$z[5][4]['typeid']="2";
+$z[6]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1039,1174);
+$z[6][4]['typeid']="4";
+$z[7]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1182,1317);
+$z[7][4]['typeid']="5";
+$z[8]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1325,1460);
+$z[8][4]['typeid']="1";
+$z[9]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1468,1604);
+$z[9][4]['typeid']="15";
+$z[10]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1612,1748);
+$z[10][4]['typeid']="18";
+$z[11]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1756,1892);
+$z[11][4]['typeid']="27";
+$z[12]=Array("type","\r\n      <li><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",1900,2036);
+$z[12][4]['typeid']="16";
+$z[13]=Array("type","\r\n      <li class=\"lastli\"><a href=\"[field:typelink/]\" title=\"[field:typename/]\" >[field:typename/]</a></li>\r\n      ",2044,2195);
+$z[13][4]['typeid']="11";
+$z[14]=Array("global","",2701,2756);
+$z[14][4]['name']="keyword";
+$z[14][4]['function']="RemoveXSS(@me)";
+$z[15]=Array("list","\r\n        <div class=\"l2tit\" style=\"width: 95%;\"> [<a target=\"_blank\" href=\"[field:typelink/]\">[field:typename/]</a>] <a href=\"[field:arcurl/]\" class=\"f14\"> [field:title/]</a><span class=\"f11\">[\r\n          [field:pubdate function=\"MyDate('Y-m-d',@me)\"/]\r\n          ]</span></div>\r\n        <div class=\"clear\"> </div>\r\n        <dl class=\"sear_dl\">\r\n          <dt class=\"dt2\"><a href=\"[field:arcurl/]\"\r\n                                    title=\"[field:title/]\"> <img src=\"[field:picname/]\" title=\"[field:title/]\"\r\n                                        alt=\"[field:title/]\" /></a></dt>\r\n          <dd class=\"d2\"> [field:description/]...<a href=\"[field:arcurl/]\"\r\n                                        class=\"cRed\" title=\"[field:title/]\">[查看]</a></dd>\r\n          <dd> <a href=\"[field:arcurl/]\" class=\"a_d\" title=\"[field:title/]\"> [field:arcurl/]</a><img src=\"/skin/images/x3.gif\"\r\n                                            alt=\"3星\" class=\"vam\" /></dd>\r\n        </dl>\r\n        ",2866,3886);
+$z[15][4]['perpage']="30";
+$z[16]=Array("likewords","",4011,4036);
+$z[16][4]['num']="8";
+$z[17]=Array("pagelist","",4256,4309);
+$z[17][4]['listitem']="index,end,pre,next,pageno";
+$z[18]=Array("arclist","\r\n        <li> <img src=\"/skin/images/sico15.gif\" alt=\"[field:title/]\" title=\"[field:title/]\" /><a\r\n                                    href=\"[field:arcurl/]\" title=\"[field:title/]\"> [field:title/]</a></li>\r\n        ",4570,4846);
+$z[18][4]['typeid']="27";
+$z[18][4]['row']="14";
+$z[18][4]['titlelen']="60";
+$z[19]=Array("include","",4982,5019);
+$z[19][4]['filename']="footer.htm";
+
+?>
